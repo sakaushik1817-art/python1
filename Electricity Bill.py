@@ -34,13 +34,6 @@ NO
 Display electricity bill
 STOP
 
-
-3. Sample output
-For an input of 150 units:
-Enter units: 150
-Electricity Bill = 350
-
-
 units = int(input("Enter units: "))
 
 if units <= 100:
@@ -51,3 +44,8 @@ else:
     bill = 500 + (units - 200) * 5
 
 print("Electricity Bill =", bill)
+
+3. Sample output
+For an input of 150 units:
+Enter units: 150
+Electricity Bill = 350
